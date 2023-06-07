@@ -19,7 +19,7 @@ const ShowDetails = () => {
   }, [showId]);
 
   if (!show) {
-    return <div>Loading...Please wait...</div>;
+    return <div>Loading....</div>;
   }
 
   const removeTags = (html) => {
